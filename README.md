@@ -1,59 +1,68 @@
-[![Build Status][build-shield]][build-url]
-[![Contributors][contributors-shield]][contributors-url]
-[![Apache 2.0 License][license-shield]][license-url]
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Available Scripts
 
-<p align="center">
-  <a href="https://github.com/rjsf-team/react-jsonschema-form">
-    <img src="https://raw.githubusercontent.com/rjsf-team/react-jsonschema-form/59a8206e148474bea854bbb004f624143fbcbac8/packages/core/logo.png" alt="Logo" width="180" height="120">
-  </a>
+In the project directory, you can run:
 
-  <h3 align="center">react-jsonschema-form</h3>
+### `yarn start`
 
-  <p align="center">
-    A simple <a href="http://facebook.github.io/react/">React</a> component capable of using <a href="http://json-schema.org/">JSON Schema</a> to declaratively build and customize web forms.
-    <br />
-    <a href="https://react-jsonschema-form.readthedocs.io/en/latest/"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://rjsf-team.github.io/react-jsonschema-form/">View Playground</a>
-    ·
-    <a href="https://github.com/rjsf-team/react-jsonschema-form/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/rjsf-team/react-jsonschema-form/issues">Request Feature</a>
-  </p>
-</p>
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-[![playground animation](https://i.imgur.com/M8ZCES5.gif)](https://rjsf-team.github.io/react-jsonschema-form/)
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
+### `yarn test`
 
-## Supported Themes
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- [Ant Design](https://github.com/rjsf-team/react-jsonschema-form/tree/master/packages/antd)
-- [Bootstrap 3](https://github.com/rjsf-team/react-jsonschema-form/tree/master/packages/core)
-- [Bootstrap 4](https://github.com/rjsf-team/react-jsonschema-form/tree/master/packages/bootstrap-4)
-- [Fluent UI](https://github.com/rjsf-team/react-jsonschema-form/tree/master/packages/fluent-ui)
-- [Material UI](https://github.com/rjsf-team/react-jsonschema-form/tree/master/packages/material-ui)
-- [Semantic UI](https://github.com/rjsf-team/react-jsonschema-form/tree/master/packages/semantic-ui)
+### `yarn build`
 
-## Documentation
-Read our [documentation](https://react-jsonschema-form.readthedocs.io/en/latest/) on Read the Docs.
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Live Playground
-A [live playground](https://rjsf-team.github.io/react-jsonschema-form/) is hosted on gh-pages.
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-## Contributing
-Read our [contributors' guide](https://react-jsonschema-form.readthedocs.io/en/latest/contributing/) to get started.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Credits
+### `yarn eject`
 
-Testing powered by BrowserStack<br>
-<a target="_blank" href="https://www.browserstack.com/"><img width="200" src="https://user-images.githubusercontent.com/1689183/51487090-4ea04f80-1d57-11e9-9a91-79b7ef8d2013.png"></a>
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-[build-shield]: https://github.com/rjsf-team/react-jsonschema-form/workflows/CI/badge.svg
-[build-url]: https://github.com/rjsf-team/react-jsonschema-form/actions
-[contributors-shield]: https://img.shields.io/github/contributors/rjsf-team/react-jsonschema-form.svg
-[contributors-url]: https://github.com/rjsf-team/react-jsonschema-form/graphs/contributors
-[license-shield]: https://img.shields.io/badge/license-Apache%202.0-blue.svg?style=flat-square
-[license-url]: https://choosealicense.com/licenses/apache-2.0/
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `yarn build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

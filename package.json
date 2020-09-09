@@ -1,38 +1,36 @@
 {
-  "name": "react-jsonschema-form",
-  "version": "2.0.0-alpha.1",
+  "name": "react-jsonschema-form-mine",
+  "version": "0.1.0",
   "private": true,
-  "description": "monorepo for react-jsonschema-form and its themes",
-  "scripts": {
-    "postinstall": "lerna bootstrap",
-    "publish": "lerna publish",
-    "changed": "lerna changed",
-    "test": "lerna run test",
-    "lint": "lerna run lint",
-    "cs-check": "lerna run cs-check",
-    "cs-format": "lerna run cs-format",
-    "build": "lerna run --stream build",
-    "start": "lerna run start --stream --parallel"
-  },
   "dependencies": {
-    "prettier": "^1.18.2",
-    "lerna": "^3.18.3"
+    "@rjsf/core": "^2.3.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-jsonschema-form": "^2.0.0-alpha.1",
+    "react-scripts": "3.4.3"
   },
-  "prettier": {
-    "jsxBracketSameLine": true,
-    "trailingComma": "es5",
-    "useTabs": false,
-    "semi": true,
-    "tabWidth": 2
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "license": "Apache-2.0",
-  "homepage": "https://github.com/rjsf-team/react-jsonschema-form",
-  "devDependencies": {
-    "husky": "^3.1.0"
+  "eslintConfig": {
+    "extends": "react-app"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lerna run --concurrency 1 --stream precommit"
-    }
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
