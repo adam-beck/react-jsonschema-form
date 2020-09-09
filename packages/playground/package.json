@@ -61,6 +61,7 @@
     "react-bootstrap": "^0.33.1",
     "react-frame-component": "^4.1.1",
     "react-is": "^16.9.0",
+    "react-jsonschema-form": "^2.0.0-alpha.1",
     "shortid": "^2.2.14"
   },
   "devDependencies": {
@@ -105,7 +106,7 @@
     "monaco-editor-webpack-plugin": "^1.7.0",
     "nyc": "^13.2.0",
     "prettier": "^1.15.1",
-    "react": "^16.9.0",
+    "react": "^16.13.1",
     "react-codemirror2": "^4.1.0",
     "react-dom": "^16.9.0",
     "react-monaco-editor": "^0.26.2",
